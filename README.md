@@ -12,6 +12,8 @@ This project implements a natural language interface for querying SQL databases 
 
 ## Project Structure
 
+![Text2SQL Process Flow](/Text2SQL%20App%20Process%20Flow.png)
+
 The project consists of three main files:
 
 1. `dummy_db.py`: Creates a dummy SQLite database using SQLAlchemy.

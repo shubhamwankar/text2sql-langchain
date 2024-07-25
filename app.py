@@ -1,5 +1,9 @@
 import streamlit as st
 from sql_agent import full_chain
+import warnings
+
+warnings.filterwarnings("ignore")
+
 
 st.header(body='Text-to-SQL LLM App')
 st.divider()
